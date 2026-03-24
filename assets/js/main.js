@@ -174,7 +174,7 @@ window.addEventListener('scroll', () => {
 });
 
 const textElement = document.querySelector('.texto-animado');
-const texts = ['Analista de Dados', 'Desenvolvedor Front-End'];
+const texts = ['Desenvolvedor Full Stack', 'Criador de Aplicações Web'];
 let textIndex = 0;
 let charIndex = 0;
 let isDeleting = false;
@@ -268,7 +268,7 @@ window.addEventListener('scroll', () => {
     });
 });
 
-emailjs.init("YOUR_PUBLIC_KEY"); // Substitua pela sua chave pública do EmailJS mas eu n tenho ainda
+emailjs.init("YOUR_PUBLIC_KEY"); 
 
 const contactForm = document.getElementById('contact-form');
 const successMessage = document.getElementById('form-success');
