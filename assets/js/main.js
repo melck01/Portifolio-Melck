@@ -268,7 +268,7 @@ window.addEventListener('scroll', () => {
     });
 });
 
-emailjs.init("YOUR_PUBLIC_KEY"); 
+emailjs.init("jEBN5TwpHLRO_GD8N"); 
 
 const contactForm = document.getElementById('contact-form');
 const successMessage = document.getElementById('form-success');
@@ -283,7 +283,7 @@ contactForm.addEventListener('submit', function(e) {
     submitButton.disabled = true;
     
     // Enviar email (substitua pelos seus IDs do EmailJS)
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', this)
+    emailjs.sendForm('service_vm9xj1w', 'template_sfr6s66', this)
         .then(function() {
             successMessage.style.display = 'block';
             contactForm.reset();
@@ -390,5 +390,5 @@ style.textContent = `
 document.head.appendChild(style);
 
 console.log('🚀 Portfólio carregado com sucesso!');
-console.log('💼 Desenvolvido por Rafael Silva');
-console.log('🌐 https://github.com/Rafife12');
+console.log('💼 Desenvolvido por Melck Messias');
+console.log('🌐 https://github.com/melck01');
